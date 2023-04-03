@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!4 &132050485 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1606329943673209647, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+  m_PrefabInstance: {fileID: 639333302}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &299218128
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,67 +212,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &490027038
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.4303473
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.035547495
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058771, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_Name
-      value: Clock (2)
-      objectReference: {fileID: 0}
-    - target: {fileID: 1606329943542058771, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
 --- !u!1001 &639333302
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -309,11 +253,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1606329943538786193, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
       propertyPath: m_Name
-      value: HoursArm
+      value: hoursArm
       objectReference: {fileID: 0}
     - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1606329943542058768, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -359,9 +311,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Clock (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1606329943542058771, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1606329943673209646, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
       propertyPath: m_Name
       value: HoursArmPivot
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606329943673209646, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1606329943673209647, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -377,25 +337,46 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1606329943673209647, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.99942243
       objectReference: {fileID: 0}
     - target: {fileID: 1606329943673209647, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.00510156
       objectReference: {fileID: 0}
     - target: {fileID: 1606329943673209647, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.03342843
       objectReference: {fileID: 0}
     - target: {fileID: 1606329943673209647, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0.003377748
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606329943673209647, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -0.571
       objectReference: {fileID: 0}
     - target: {fileID: 1606329943673209647, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 3.833
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 1606329943673209647, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -0.406
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606329943919219831, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+      propertyPath: m_Name
+      value: secondsArm
+      objectReference: {fileID: 0}
+    - target: {fileID: 1606329944269355283, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+      propertyPath: m_Name
+      value: minutesArm
+      objectReference: {fileID: 0}
+    - target: {fileID: 3477264694278795373, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3477264694278795373, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
 --- !u!1 &759897790
 GameObject:
@@ -491,3 +472,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!4 &936788035 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1606329943078283281, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+  m_PrefabInstance: {fileID: 639333302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1373863183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1606329943542058771, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+  m_PrefabInstance: {fileID: 639333302}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1373863185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1373863183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fa34bfa907102448a92555fe059766a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hoursPivot: {fileID: 132050485}
+  minutesPivot: {fileID: 936788035}
+  secondsPivot: {fileID: 1651949148}
+--- !u!4 &1651949148 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1606329943587743692, guid: fc4eb69af0991b64089121aa2ce5978a, type: 3}
+  m_PrefabInstance: {fileID: 639333302}
+  m_PrefabAsset: {fileID: 0}
